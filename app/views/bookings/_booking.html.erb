@@ -1,0 +1,22 @@
+<div id="<%= dom_id booking %>">
+  <p>
+    <strong>Room:</strong>
+    <%= booking.room_id %>
+  </p>
+
+  <p>
+    <strong>Start:</strong>
+    <%= booking.start.strftime("%Y %m %d") %>
+  </p>
+
+  <p>
+    <strong>End:</strong>
+    <%= booking.end.strftime("%Y %m %d") %>
+  </p>
+
+  <p>
+    <strong>Purpose:</strong>
+    <%= booking.purpose %>
+  </p>
+
+</div>
